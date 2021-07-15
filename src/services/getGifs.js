@@ -16,5 +16,5 @@ export const getGifs = ( { keyword = 'Saint Seiya'} = {} ) => {
 
                 return gifs;
             }
-        })
+        });
 }
