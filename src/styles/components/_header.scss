@@ -8,6 +8,12 @@
 
 .header__site-header {
 	padding-top: 40px;
+
+    div.container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 .header__site-brand {

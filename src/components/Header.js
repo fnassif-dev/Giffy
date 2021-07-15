@@ -11,7 +11,9 @@ export const Header = ({ setKeyword }) => {
         <div className="header__site-top">
             <div className="header__site-header clearfix">
                 <div className="container">
-                    <a href="#" className="header__site-brand pull-left"><strong>GIFFY</strong> Free Gifs Searching App</a>
+                    <div>
+                        <a href="#" className="header__site-brand pull-left"><strong>GIFFY</strong> Free Gifs Searching App</a>
+                    </div>
                     <div className="header__auth-items">
                         <a href="#">Login</a>
                         <a href="#">Register</a>
